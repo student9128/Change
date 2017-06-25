@@ -16,10 +16,10 @@
         app:tabIndicatorHeight="2dp"
         app:tabTextAppearance="@style/TabTextAppearanceStyle"></android.support.design.widget.TabLayout>
 
-    <com.kevin.tech.myandroid.NoSmoothViewPager
+    <com.kevin.tech.change.NoSmoothViewPager
         android:id="@+id/ns_view_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></com.kevin.tech.myandroid.NoSmoothViewPager>
+        android:layout_weight="1"></com.kevin.tech.change.NoSmoothViewPager>
 
 </LinearLayout>
