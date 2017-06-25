@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/bg_divider</item>
+    </style>
+
+    <style name="TabTextAppearanceStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- dialog样式 -->
+    <style name="LoadingDialogStyle" parent="ThemeOverlay.AppCompat.Dialog">
+        <!--<item name="android:windowIsFloating">true</item>    &lt;!&ndash;是否浮在界面上&ndash;&gt;-->
+        <!--<item name="android:windowIsTranslucent">true</item> &lt;!&ndash;是否半透明&ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">false</item>       &lt;!&ndash;是否有标题&ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item> &lt;!&ndash;窗口背景色透明&ndash;&gt;-->
+        <item name="android:backgroundDimEnabled">false</item> <!--背景是否模糊显示-->
+    </style>
+</resources>
