@@ -105,8 +105,8 @@ public class MainFragment extends BaseFragment implements TabLayout.OnTabSelecte
 
     private void initTabList() {
         mTabList.clear();
-        mTabList.add("Tab1");
-        mTabList.add("Tab2");
+        mTabList.add("笑话");
+        mTabList.add("新闻");
         mTabList.add("Tab3");
         mTabList.add("Tab4");
     }
